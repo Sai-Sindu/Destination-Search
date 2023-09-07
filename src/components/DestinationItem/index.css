@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.destination-image {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+  background-size: cover;
+  margin-left: 10px;
+}
+.destination-name {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  align-self: flex-start;
+  margin-left: 10px;
+}

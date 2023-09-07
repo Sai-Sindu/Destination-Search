@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.heading {
+  color: #252627;
+  font-size: 35px;
+}
+.destination-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.search-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 5px;
+}
+.input-card {
+  width: 100%;
+  background-color: #f1f5f9;
+  border-width: 0;
+}
+.image {
+  height: 30px;
+  width: 30px;
+}
